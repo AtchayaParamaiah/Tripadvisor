@@ -1,0 +1,1503 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #002B11;
+
+}
+
+/* header */
+
+
+.Tripadvisor {
+
+    margin-top: 8px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    
+}
+
+.navbar {
+    margin-left: 36.33px;
+    margin-right: 36.33px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 60px;
+    display: flex;
+    
+    justify-content: space-between;
+    position: relative;
+    
+
+}
+
+.navbar__img {
+    display: flex;
+    
+    align-items: center;
+    height: 100%;
+    flex-basis:188px;
+    flex-wrap: wrap;
+}
+
+
+.navbar__sec {
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+
+}
+
+.navbar__sec p {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.navbar__sec p:hover {
+    background-color: #DFE1DF;
+}
+
+.navbar__but {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar__but__button {
+    display: flex;
+    gap: 5px;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    gap: 5px;
+
+}
+
+.navbar__but__button button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9.50px;
+    padding-bottom: 9.50px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+}
+
+.navbar__but__button img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.navbar__but__button h2 {
+    border-left: solid #002B11 1px;
+    padding-left: 2px;
+}
+
+.navbar__but__button button:hover {
+    background-color: #DFE1DF;
+}
+
+.navbar__but__sign {
+    display: flex;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+.navbar__but__sign button {
+    
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9.50px;
+    padding-bottom:9.50px ;
+    border-radius: 30px;
+    
+    background-color: #002B11;
+    color: white;
+    white-space: nowrap;
+}
+
+.navbar__but__sign h2{
+    width:47px;
+    height: 22px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.navbar__but__sign button:hover {
+    color: #DFE1DF;
+}
+.navbar__menu{
+    position: absolute;
+    top:20px;
+    left:-10px;
+    display: none;
+}
+
+.navbar__contact{
+    display: flex;
+    position: absolute;
+    top:20px;
+    right:-10px;
+    padding: 5px;
+    border:solid black 1px;
+    border-radius: 50px;
+    display: none;
+}
+
+
+
+
+/* Sticky */
+.sticky {
+
+    margin-left: 36.33px;
+    margin-right: 36.33px;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: static;
+    top:60px;
+    background-color: white;
+    z-index: 100;
+}
+
+.sticky__buttons {
+    width: 100%;
+    scrollbar-width: none;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+    position: sticky;
+    
+}
+
+.sticky__buttons button {
+    
+    border: none;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-bottom: solid white 2px;
+   
+}
+.sticky__buttons button:hover{
+    
+    border-bottom: solid #002B11 2px;
+}
+.sticky__buttons button h4 {
+    margin-left: 24px;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+
+
+}
+
+/* main */
+
+.title {
+    margin-top: 48px;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.categories {
+    width: 100%;
+    margin-top: 32px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.categories button {
+    margin-left: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    display: flex;
+    
+    
+    border: none;
+    vertical-align: middle;
+    background-color: transparent;
+    border-bottom: solid white 2px;
+
+
+}
+
+.categories button img {
+    width:30px;
+    height: 30px;
+    object-fit: contain;
+
+}
+
+.categories h2 {
+    display: flex;
+    align-items:end;
+    font-size: 16px;
+    margin: 0;
+}
+
+.categories button:hover {
+    border-bottom: solid #002B11 2px;
+}
+
+/* Search-bar */
+.search-bar {
+    margin-top: 22px;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid #DFE1DF 2px;
+    border-radius: 30px;
+    background-color: #F7F7F7;
+    flex: 1;
+    gap:10px;
+}
+.search-bar__s1{
+    position: relative;
+}
+.search-bar__s1 {
+    padding: 5px;
+    display: flex;
+}
+
+.search-bar__s1 input{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    width:100%;
+}
+.search-bar__s1 img {
+    width: 24px;
+    height: 24px;
+}
+
+.search-bar__s1 input {
+    background-color: #F7F7F7;
+    border: none;
+    font-size: 16px;
+}
+
+.search-bar__s2 {
+    display: flex;
+}
+
+.search-bar__s2 button {
+    background-color: #00E559;
+    border: solid black 1px;
+    padding-left: 22.50px;
+    padding-right: 22.50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.banner {
+    margin: 50px;
+    display: flex;
+}
+
+.banner__card {
+    position: relative;
+}
+
+.banner__mobile {
+    position: absolute;
+    top: 350px;
+    animation-name: up;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes up {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: 10px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+.banner__rewards {
+    width: 350px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    position: absolute;
+    top: 450px;
+    right: 100px;
+    gap: 10px;
+}
+
+.banner__rewards img {
+    width: 156px;
+}
+
+.banner__rewards h1 {
+    font-size: 64px;
+    max-width: 375px;
+    line-height: 85%;
+    width: 100%;
+}
+
+.banner__rewards button {
+    padding: 12px;
+    border: solid #002B11 2px;
+    border-radius: 30px;
+    background-color: #002B11;
+    color: white;
+}
+
+.banner__rewards button:hover {
+    color: #DFE1DF;
+}
+/* Awards */
+.awards {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.awards__heading {
+    margin-bottom: 16px;
+
+}
+
+.scroll {
+    width: 1150px;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 1150px;
+    
+    
+    gap: 20px;
+    
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for cleaner look */
+}
+
+.item {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.item img{
+    border-radius: 20px;
+    
+}
+
+.buttons-one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: absolute;
+    top:100px;
+    left: -30px;
+    z-index: 2;
+}
+.buttons-two{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: absolute;
+    top:100px;
+    right: -20px;
+    z-index: 2;
+}
+
+.buttons-one button, .buttons-two button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: transparent;
+
+}
+.buttons-one img, .buttons-two img{
+    background-color: white;
+    border-radius: 30px;
+}
+
+.item h2{
+    position: absolute;
+    bottom:20px;
+    color: white;
+}
+.near {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+.near__title {
+    margin-bottom: 16px;
+
+}
+
+.roll {
+    width: 1150px;
+    
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.container-one{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 1150px;
+    height: 400px;
+    
+    gap: 20px;
+    
+}
+
+.container-one::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for cleaner look */
+
+}
+
+.things {
+    width: 250px;
+    height: 270px;;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+.things img{
+    border-radius: 20px;
+    
+    
+}
+
+.buttons-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: absolute;
+    top:100px;
+    left: -30px;
+    z-index: 2;
+}
+.buttons-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: absolute;
+    top:100px;
+    right: -20px;
+    z-index: 2;
+
+}
+
+.buttons-1 button, .buttons-2 button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: transparent;
+
+}
+.buttons-1 img, .buttons-2 img{
+    background-color: white;
+    border-radius: 30px;
+}
+
+.things h2{
+    height: 100px;
+    position: absolute;
+    font-size: 16px;
+    bottom:-100px;
+    color:#002B11 ;
+    text-align: center;
+    
+}
+
+.things p{
+    position: absolute;
+    bottom: -90px;
+
+    
+
+}
+.things button{
+    position:absolute;
+    top:20px;
+    right:10px;
+    padding: 1px;
+    border-radius: 30px;
+    padding: 3px;
+    
+}
+
+.things button img{
+    display: flex;
+}
+.explore {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+.explore__title {
+    margin-bottom: 16px;
+
+}
+
+.roll-1 {
+    width: 1150px;
+    
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.container-two{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 1150px;
+    height: 400px;
+    
+    gap: 20px;
+    
+}
+
+.container-two::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for cleaner look */
+
+}
+
+.things-1 {
+    width: 250px;
+    height: 270px;;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+.things-1 img{
+    border-radius: 20px;
+    
+    
+}
+
+.buttons-3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: absolute;
+    top:100px;
+    left: -30px;
+    z-index: 2;
+}
+.buttons-4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: absolute;
+    top:100px;
+    right: -20px;
+    z-index: 2;
+
+}
+
+.buttons-3 button, .buttons-4 button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: transparent;
+
+}
+.buttons-3 img, .buttons-4 img{
+    background-color: white;
+    border-radius: 30px;
+}
+
+.things-1 h2{
+    height: 100px;
+    position: absolute;
+    font-size: 16px;
+    bottom:-100px;
+    color:#002B11 ;
+    text-align: center;
+    
+}
+
+.things-1 h4{
+    position: absolute;
+    bottom: -115px;
+}
+.things-1 p{
+    position: absolute;
+    bottom: -90px;
+
+    
+
+}
+.things-1 button{
+    position:absolute;
+    top:20px;
+    right:20px;
+    padding: 1px;
+    border-radius: 30px;
+    padding: 3px;
+    
+}
+
+.things-1 button img{
+    display: flex;
+}
+
+.Best{
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.Best__pic img{
+    width:1130px;
+    height: 500px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+.Best__icon{
+    position: absolute;
+    top:30px;
+    right: 30px;
+}
+ .Best__icon img{
+    width:65px;
+    height: 86px;
+ }
+
+.Best__title{
+    position: absolute;
+    bottom:80px;
+    left:50px;
+    color: white;
+    
+}
+
+.Best__title h1{
+    font-size: 36px;
+    
+    
+}
+
+.Best__title button{
+    padding: 15px;
+    border-radius: 30px;
+    margin:10px;
+    border: solid black 2px;
+}
+
+/* Inspiration */
+.inspiration {
+    height: 400px;
+    margin-top: 64px;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #DFE1DF;
+    border-radius: 30px;
+}
+
+.inspiration__heading {
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.scroll-4 {
+   
+    width: 1150px;
+    margin-bottom: 64px;
+    position: relative;
+    
+}
+
+.container-four{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 1150px;
+    
+    
+    gap: 20px;
+    
+}
+
+.container-four::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for cleaner look */
+}
+
+.things-4{
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background-color: #DFE1DF;
+    
+}
+
+.things-4 img{
+    border-radius: 20px;
+    margin: 10px;;
+    
+}
+
+.buttons-7{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: absolute;
+    top:100px;
+    left: -30px;
+    z-index: 2;
+}
+.buttons-8{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: absolute;
+    top:100px;
+    right: -20px;
+    z-index: 2;
+}
+
+.buttons-7 button, .buttons-8 button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: transparent;
+
+}
+.buttons-7 img, .buttons-8 img{
+    background-color: white;
+    border-radius: 30px;
+}
+
+.things-4 h2{
+    position: absolute;
+    bottom:30px;
+    
+    left:30px;
+    color: white;
+    font-size: 20px;
+}
+
+.things-4 button{
+    position: absolute;
+    top:20px;
+    right:20px;
+    border-radius: 30px;
+}
+.things-4 button img{
+    border-radius: 30px;
+    display: flex;
+}
+
+
+/* Adventure */
+.Adventure{
+    
+    width:1250px;
+    height:450px;
+    position: relative;
+}
+
+.Ad{
+    margin-top: 124px;
+    margin-bottom: 64px;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+.Ad__p{
+    display: flex;
+    position: absolute;
+    top:80px;
+    right:250px;
+}
+
+.Ad__desc{
+    margin-top: 16px;
+    text-align: center;
+    width:400px;
+    position: absolute;
+    top:100px;
+    right: 150px;
+    text-wrap: wrap;
+}
+
+.Ad__desc button{
+    margin-top: 16px;
+    padding: 15px;
+    background-color: #002B11;
+    color: white;
+    border-radius: 30px;
+    border: solid #002B11 2px;
+}
+
+
+
+/* next */
+.next {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.next__heading {
+    margin-bottom: 16px;
+
+}
+
+.scroll-3 {
+    width: 1150px;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.container-three{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 1150px;
+    
+    
+    gap: 20px;
+    
+}
+
+.container-three::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for cleaner look */
+}
+
+.things-2{
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.things-2 img{
+    border-radius: 20px;
+    
+}
+
+.buttons-5{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: absolute;
+    top:100px;
+    left: -30px;
+    z-index: 2;
+}
+.buttons-6{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: absolute;
+    top:100px;
+    right: -20px;
+    z-index: 2;
+}
+
+.buttons-5 button, .buttons-6 button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: transparent;
+
+}
+.buttons-5 img, .buttons-6 img{
+    background-color: white;
+    border-radius: 30px;
+}
+
+.things-2 h2{
+    position: absolute;
+    bottom:20px;
+    color: white;
+}
+
+/* Traveler */
+.Traveler{
+    width:1250px;
+    height:650px;
+    background-color: #002B11;
+}
+.Tr{
+    
+
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 52px;
+    position: relative;
+}
+
+.Tr__desc{
+    width:350px;
+    color: white;
+}
+
+.Tr__desc h1{
+    
+    
+    height: 272px;
+    font-size: 54px;
+    font-weight:bolder;
+    flex-wrap: wrap;
+    padding-bottom: 16px;
+    
+}
+.Tr__desc p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Tr__desc button{
+    padding: 20px;
+    border-radius: 30px;
+    color: #002B11;
+    border: solid white 2px;
+    font-weight: bold;
+}
+.Tr__pic img{
+    width:680;
+    height: 600px;
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+
+/* footer */
+
+.footer-one{
+    margin-top: 64px;
+    padding-top: 32px ;
+    padding-bottom: 32px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width:1150px;
+    height: 220px;
+    background-color: #DFE1DF;
+    display: flex;
+    gap:30px;
+    position: relative;
+    
+}
+.Sites{
+    margin-left: 150px;
+}
+
+.Sites h4{
+    text-decoration: underline;
+}
+
+.Sites__one, .Sites__two, .Sites__three, .Sites__forur, .Sites__five{
+    display: flex;
+}
+
+.footer-two{
+    
+    
+   
+    padding-top: 32px ;
+    padding-bottom: 32px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width:1150px;
+    height: 210px;
+    background-color: #DFE1DF;
+    position: absolute;
+    
+    
+}
+
+.left__s1{
+    display: flex;
+}
+
+.left__s2{
+    width:770px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding-left:40px ;
+}
+
+.left__s2 h4{
+    padding-right: 15px;
+    text-decoration: underline;
+
+}
+
+.left__s3{
+    width:770px;
+    padding: 10px;
+}
+.right{
+    position: absolute;
+    top:50px;
+    right:50px;
+}
+.right__s1{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.right__s1 select{
+    padding: 10px;
+    width:150px;
+    border:solid #768A79 2px;
+    border-radius: 10px;
+}
+
+.right__s2{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between
+ }
+.footer-3{
+    background-color: #EEEEEE ;
+    color: black;
+    position: relative;
+    display: none;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.About__Triadvisor,.Explore1, .Business1, .Get1, .sites1{
+    margin-top: 30px;
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.About__Triadvisor select, .Explore1 select, .Business1 select, .Get1 select, .sites1 select{
+    margin-top: 20px;
+    padding: 10px;
+    width:100%;
+    background-color: #EEEEEE;
+    
+    border:none;
+    border-bottom: solid #002B11 0.5px;
+    
+}
+.usd1,.country1{
+    margin: 30px;
+    display: flex;
+    border:solid #002B11 2px;
+    border-radius:20px ;
+    display: flex;
+    
+    
+}
+
+.usd1 select,.country1 select{
+    
+    padding: 10px;
+    width:100%;
+    background-color: white;
+    border:solid #002B11 2px;
+    border:none;
+    border-radius: 20px;
+    
+}
+.footer{
+    position: relative;
+}
+.footer-4{
+    padding: 10px;
+    background-color: #EEEEEE;
+    margin-top:30px;
+    position: absolute;
+    top:520px;
+    font-size: small;
+    
+}
+.footer-4__icon{
+    
+    padding-top: 0px;
+    display: flex;
+    justify-content: end;
+    gap:20px;
+}
+.bot__s1{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bot__s2{
+    margin: 10px;
+    flex-basis:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding-left:40px ;
+}
+
+.bot__s2 h4{
+    padding-right: 15px;
+    text-decoration: underline;
+
+}
+
+.bot__s3{
+    width:100%;
+    padding: 10px;
+}
+.footer-4{
+    display: none;
+}
+
+@media screen and (max-width:789px){
+    .navbar__menu {
+        display: block;
+    }
+    .navbar__sec p{
+        display:none;
+    }
+    .navbar__but__button button{
+        display: none;
+    }
+    .navbar__but__sign button{
+        display: none;
+    }
+    .navbar__contact{
+        display: block;
+    }
+    .sticky{
+        display: none;
+    }
+    .categories
+    {
+        overflow-x: auto;
+    }
+    .search-bar{
+        margin: 10px;
+
+    }
+    .footer-one, .footer-two{
+        display: none;
+    }
+    .footer-3{
+        display:block;
+    }
+}    
+
+@media screen and (max-width:600px){
+
+    *{
+        margin: 0;
+    }
+    body{
+        font-size: 16px;
+        width:500px;
+    }
+    .navbar__img img{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar{
+        border-bottom: solid black 1px;
+    }
+    
+    .search-bar{
+        margin: 10px;
+        flex-direction: column;
+        align-items: stretch;
+        height: unset;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .search-bar__s1{
+        display: flex;
+        flex-basis: 100%;
+        border-bottom: solid #002B11 1px;
+    }
+    .search-bar__s1 input{
+        display: hidden;
+        
+    }
+    .search-bar__s2 button{
+        width:100%;
+        
+        margin-top: 8px;
+    }
+    .banner{
+        
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        flex-basis: 100%;
+        align-items: stretch;
+        height: unset;
+        
+    }
+
+    .banner__card img{
+        width:100%;
+        
+        
+    }
+    .banner__rewards{
+        flex-wrap: wrap;
+        
+        background-color:#B2FF1A ;
+        text-align: center;
+        font-size: smaller;
+        margin-top: 190px;
+        position: absolute;
+        border-top: solid #002B11 ;
+        left:25px;
+        
+    }
+    .awards{
+        
+        margin: 0;
+        margin-top: 350px;
+        overflow-x:scroll;
+        
+        
+    }
+
+    .buttons-one button,.buttons-two{
+        display: none;
+    }
+
+    
+    .near{
+        margin:0;
+        margin-top:20px ;
+        overflow-x: scroll;
+    }
+    .buttons-1 button, .buttons-2 button{
+        display: none;
+    }
+    .explore{
+        margin: 0;
+        margin-top: 20px;
+        overflow-x: scroll;
+    }
+    .buttons-3 button, .buttons-4 button{
+        display: none;
+    }
+    .Best{
+        margin:0;
+        margin-top: 20px;;
+        margin-bottom: 20px;
+    }
+    .Best__pic img{
+        width:470px;
+        border-radius: 50px;
+    }
+    .Best__title{
+        margin-top: 100px;
+    }
+    .inspiration{
+        margin-top: 50px;
+        margin: 10px;
+        overflow-x: scroll;
+    }.buttons-5, .buttons-6, .buttons-7, .buttons-8{
+        display: none;
+    }
+    .Adventure{
+        width:500px;
+    }
+    .Ad{
+        margin: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+   
+    }
+
+    .Ad__pic img{
+        width:100%;
+        
+    }
+    .Ad__p{
+        display: none;
+        margin-top: 340px;
+        text-align: center;
+    }
+    .Ad__desc h1{
+        width:100%;
+        margin-top: 300px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content:right
+    }
+    .Ad__desc p{
+        margin-left: 100px;
+    }
+    .Ad__desc button{
+        margin-left: 100px;
+    }
+    
+    .next{
+        margin: 0;
+        margin-top: 300px;
+        overflow-x: scroll;
+    }
+    .Traveler{
+        margin-top: 20px;
+        width:500px;
+    }
+    
+    .Tr__pic img{
+       
+        display: none;
+    }
+    .footer-4{
+        display: block;
+    }
+}
