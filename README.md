@@ -31,10 +31,10 @@ This project is designed to showcase modern web design principles, mobile-first 
 ---
 
 ## 📂 Project Structure
-link{} 
+link[]
 
 ---
-
-
+live here
+ https://atchayaparamaiah.github.io/Tripadvisor/
 
 
